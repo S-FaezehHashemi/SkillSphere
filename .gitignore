@@ -1,0 +1,29 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python / Django
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.sqlite3
+*.log
+staticfiles/
+media/
+.pytest_cache/
+.ruff_cache/
+
+# Node / React / Vite
+node_modules/
+dist/
+.vite/
+*.tsbuildinfo
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
